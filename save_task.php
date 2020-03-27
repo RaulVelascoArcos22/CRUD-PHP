@@ -8,6 +8,8 @@
         if(!$result){
             die("QUERY FAILED");
         }
+        $_SESSION['message'] = 'Task Saved succesfully';
+        $_SESSION['message_type']='success';
         header("Location:index.php");
     }
 ?>
