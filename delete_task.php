@@ -8,7 +8,7 @@
             die("Query Failed");
         }
         $_SESSION['message']='Task Removed Successfully';
-        $_SESSION['message_type']='danger';
+        $_SESSION['message_typy']='danger';
         header("Location: index.php");
     }
 ?>
