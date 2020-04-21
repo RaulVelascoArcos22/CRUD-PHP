@@ -28,7 +28,7 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>Title</th>
+                            <th>Titlee</th>
                             <th>Description</th>
                             <th>Created At</th>
                             <th>Actions</th>
