@@ -1,3 +1,4 @@
+<?php ob_start();?>
 <?php
     include("db.php");
     if(isset($_POST['save_task'])){
@@ -13,3 +14,4 @@
         header("Location:index.php");
     }
 ?>
+<?php ob_end_flush(); ?>

@@ -1,10 +1,10 @@
 
 <?php
-session_start();
+@session_start();
 $conn = mysqli_connect(
     'localhost',
     'root',
-    'codebitra17',
-    'php-crud'
+    'Co78@34dE09+_PO[bit]D//',
+    'php-crud' 
 );
 ?>

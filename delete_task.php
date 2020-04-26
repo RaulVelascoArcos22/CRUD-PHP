@@ -1,4 +1,4 @@
-
+<?php ob_start();?>
 <?php include("db.php");
     if(isset($_GET['id'])){
         $id = $_GET['id'];
@@ -12,3 +12,4 @@
         header("Location: index.php");
     }
 ?>
+<?php ob_end_flush(); ?>

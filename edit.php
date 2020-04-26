@@ -1,3 +1,4 @@
+<?php ob_start();?>
 <?php
     include("db.php");
     if(isset($_GET['id'])){
@@ -42,3 +43,4 @@
     </div>
 </div>
 <?php include("includes/footer.php");?>
+<?php ob_end_flush(); ?>
